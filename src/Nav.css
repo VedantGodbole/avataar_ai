@@ -1,0 +1,53 @@
+.Nav {
+  background-color: rgb(27, 25, 25);
+  color: rgb(247, 244, 244);
+  font-weight: bold;
+  justify-content: center;
+  height: 3rem;
+}
+
+
+
+.custom-rounded-navbar {
+  border-radius: 10px;
+  /* or any other value you prefer */
+}
+
+.searchStyle {
+  /* Adjust padding to accommodate the logo */
+  border: none;
+  width: 16vw;
+  border-bottom: 1px solid rgb(247, 244, 244);
+  /*background: "url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png) no-repeat"; */
+  background: url('magnifying-glass.svg') no-repeat;
+  background-size: 25px;
+  color: rgb(244, 240, 240);
+  background-position: left center;
+  /* Adjust the size of the logo */
+  padding-left: 30px;
+  margin-right: 1.1rem;
+  filter: brightness(550%);
+  background-repeat: no-repeat;
+  font-size: 14px;
+  outline: none;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+
+
+.new_width {
+  width: 7.8rem;
+  font-weight: normal;
+  font-size: 15px;
+  /* Ensure text is not bold */
+
+}
+
+.normal {
+  font-weight: normal;
+  font-size: 15px;
+}

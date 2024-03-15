@@ -1,0 +1,176 @@
+.slideC {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    width: 662px;
+    /* background-color: red; */
+    height: 272px;
+    margin: 0 auto;
+  }
+  
+  
+  .slide {
+    width: 562px;
+    height: 352px;
+    margin-left:-17.3rem; 
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s,
+      visibility 500ms ease 0s;
+    position: absolute;
+    top: 0;
+    border-radius: 14px;
+    box-shadow: 0;
+   
+  }
+  .slide:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* 3D reflection effect */
+  .reflection {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: -60px;
+    border-radius: 12px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s,
+      visibility 500ms ease 0s;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sliderContent {
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: rgb(250, 249, 249);
+    
+    width:100%;
+    
+    
+    ;
+
+    align-items: flex-start;
+    
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .sliderContent h2 {
+    margin: 16px 0;
+  }
+
+  
+  .sliderContent p {
+  
+    /* background-color: rgba(6,6,6,0.6);
+
+    margin-top:270px ;
+    padding-left:225px; */
+
+    overflow: hidden;
+    padding: 0.7em 0em;
+   
+    text-align: center;
+    background-color:rgba(6,6, 6, 0.6);
+    margin-top: 20.2em;
+    border-radius: 0 0 14px 14px;
+
+    
+  }
+  
+  /* normal css  */
+  
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #edecec;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .btns {
+    padding-top: 100px;
+  }
+  
+  .btns .btn {
+    cursor: pointer;
+  }
+  
+  .btns .btn:last-child {
+    margin-left: 40px;
+  }
+  
+  /* normal css  */
+  .blue-rectangle {
+    margin-top:11px;
+    width: 20px; /* Adjust width as needed */
+    height: 10px; /* Adjust height as needed */
+    background-color: rgb(82, 194, 224);
+    border-radius: 50px; /* Adjust border radius as needed */
+    
+ 
+  }
+
+  
+  
+  .floating-text {
+    vertical-align: middle; 
+    display: none; /* Initially hidden */
+    position: absolute;
+    position: absolute;
+    text-align: center;
+    
+  top: -50px; /* Adjust as needed */
+  right:50px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(195, 192, 192);
+    padding: 10px;
+    border-radius: 35px;
+    width: 2cm;
+    height:1.3cm;
+  }
+  
+  .slide:hover .floating-text {
+    display: block; /* Show on hover */
+  }
+  
+
+.flexbox{
+    display:flex;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    
+    font-weight:bolder;
+    padding:1.2rem;
+}
+
+h3 {
+    text-align: center;
+    
+    
+ 
+}
+
+.slider_js{
+    /* background-color: red; */
+    margin-top: -10rem;
+}
+
+.arrow_btns{
+    margin-left: 29rem;
+}
