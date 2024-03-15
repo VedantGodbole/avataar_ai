@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/avataar_ai/static/css/main.d2ee94c7.css",
+    "main.js": "/avataar_ai/static/js/main.7ed0e748.js",
+    "static/js/453.073c0c1c.chunk.js": "/avataar_ai/static/js/453.073c0c1c.chunk.js",
+    "static/media/image-6.jpg": "/avataar_ai/static/media/image-6.7730cedcf5c33b1f5fdf.jpg",
+    "static/media/image-3.jpg": "/avataar_ai/static/media/image-3.e3e0bb430c05a624e7ee.jpg",
+    "static/media/image-5.jpg": "/avataar_ai/static/media/image-5.0901560da03223713e40.jpg",
+    "static/media/image-4.jpg": "/avataar_ai/static/media/image-4.6267c072a4989fcc8064.jpg",
+    "static/media/image-1.jpg": "/avataar_ai/static/media/image-1.8966122717332b46c870.jpg",
+    "static/media/image-2.jpg": "/avataar_ai/static/media/image-2.cf115e56916b97e9a24c.jpg",
+    "static/media/image-10.jpg": "/avataar_ai/static/media/image-10.6184e2efc3bfee658b91.jpg",
+    "static/media/logo_ecomm.png": "/avataar_ai/static/media/logo_ecomm.e68971f3361cdd289092.png",
+    "static/media/image-8.jpg": "/avataar_ai/static/media/image-8.97c36848df40babbcf33.jpg",
+    "index.html": "/avataar_ai/index.html",
+    "static/media/magnifying-glass.svg": "/avataar_ai/static/media/magnifying-glass.fa1d995dfe03b4bd61ae.svg",
+    "main.d2ee94c7.css.map": "/avataar_ai/static/css/main.d2ee94c7.css.map",
+    "main.7ed0e748.js.map": "/avataar_ai/static/js/main.7ed0e748.js.map",
+    "453.073c0c1c.chunk.js.map": "/avataar_ai/static/js/453.073c0c1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ee94c7.css",
+    "static/js/main.7ed0e748.js"
+  ]
+}
